@@ -1,0 +1,34 @@
+Steps to set up python dev environment. Our
+
+1. Install Python 3 from https://python.org
+(Don't forget to tick option 'Add Python 3.X to PATH' in the installer). Also note where python is being installed on your computer, you will need this information later.
+
+2. Open Idle
+   a) File->new
+   b) Try simple program 
+   
+   print("hello world")
+   
+   c) Save file and Run(F5)
+   d) If it prints hello world, all is well. 
+
+3. Install notepad++ from https://notepad-plus-plus.org/ 
+   a) Open Notepad++
+      File->new
+      type print("hello world")
+      save file as helloworld.py
+   b) Plugins->Plugins Manager-> Show Plugin Manager
+   c) Find one called NPPExec
+   d) Tick the checkbox beside it and click Install
+   e) Now you need to know the full path of the python.exe file. You can use a tool like Everything (https://www.voidtools.com/downloads/)
+   On my computer, the path is C:\Python34\python.exe. If you locate the file in File Explorer, you can press SHIFT and right-click onthe file, you get an option called Copy as Path.
+   f) Plugins->NPPExec->Execute
+   g) In the dialog box, enter the following, replacing the full python.exe path
+   "C:\Python34\python.exe" "$(FULL_CURRENT_PATH)" 
+   h) Press Save, give script name of runpython, then OK
+   i) Plugins->NppExec->Save all files on execute 
+   j) If done correctly, you should see hello world in console output
+   k) change program to print("I have configured Notepad++ correctly.")
+   l) Press Ctrl F6
+
+ 4. Another good editor is Sublime Text  	
