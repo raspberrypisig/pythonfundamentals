@@ -1,4 +1,4 @@
-Steps to set up python dev environment. Our
+Steps to set up python dev environment. 
 
 1. Install Python 3 from https://python.org
 (Don't forget to tick option 'Add Python 3.X to PATH' in the installer). Also note where python is being installed on your computer, you will need this information later.
