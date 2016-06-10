@@ -31,4 +31,4 @@ Steps to set up python dev environment.
    k) change program to print("I have configured Notepad++ correctly.")
    l) Press Ctrl F6
 
- 4. Another good editor is Sublime Text  	
+ 4. Other good editors are Sublime Text, VSCode	
