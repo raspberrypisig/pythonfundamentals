@@ -10,6 +10,7 @@ from selenium import webdriver
 import json
 
 driver = webdriver.PhantomJS()
+driver.set_window_size(1124, 850)
 driver.get('https://raw.githubusercontent.com/pklaus/python-spelling-alphabet/master/alphabets/NATO.json
 ')
 print("----- START SOURCE---")
